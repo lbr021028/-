@@ -24,7 +24,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('|#countdown 3||祝|全世界|最好的|爱播|一只卡卡|生日快乐|天天开心|无论如何|我们都会一直在|会一直看着|陪着你们|希望每年|都能|陪你们度过|美好的生日|');
+      S.UI.simulate('|#countdown 3||祝|全世界|最好的|爱播|一只卡卡|生日快乐|天天开心|无论如何|我们都|会一直在|会一直看着|陪着你们|希望每年|都能|陪你们度过|美好的生日|');
     }
 
     S.Drawing.loop(function () {
